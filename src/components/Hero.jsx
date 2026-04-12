@@ -4,7 +4,7 @@ import profile from "../assets/Arjun_Profile.jpeg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-[#0f172a] text-white flex items-center">
+    <section id="hero" className="min-h-screen bg-[#0f172a] text-white flex items-center">
       
       {/* CONTAINER */}
       <div className="max-w-6xl mx-auto w-full px-6 flex flex-col md:flex-row items-center justify-between gap-10 pt-20">

@@ -13,11 +13,11 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-medium">
-          <li className="hover:text-[#38bdf8] cursor-pointer">Home</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">About</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">Skills</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">Projects</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">Contact</li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#hero">Home</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#about">About</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#skills">Skills</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#projects">Projects</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#contact">Contact</a></li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -32,11 +32,11 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden bg-[#0f172a] px-6 pb-4 flex flex-col gap-4 font-medium">
-          <li className="hover:text-[#38bdf8] cursor-pointer">Home</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">About</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">Skills</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">Projects</li>
-          <li className="hover:text-[#38bdf8] cursor-pointer">Contact</li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#hero">Home</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#about">About</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#skills">Skills</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#projects">Projects</a></li>
+          <li className="hover:text-[#38bdf8] cursor-pointer"><a href="#contact">Contact</a></li>
         </ul>
       )}
     </nav>
