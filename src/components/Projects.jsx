@@ -50,7 +50,7 @@ const Projects = () => {
         <div className="w-20 h-1 bg-[#38bdf8] mx-auto mt-4 mb-10 rounded"></div>
 
         {/* GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="project-card grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {projects.map((project, index) => (
             <div
