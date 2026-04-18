@@ -7,7 +7,7 @@ const projects = [
   {
     title: "AI Code Reviewer",
     description:
-      "AI-powered code review tool that provides suggestions and improvements.",
+      "Developed an AI-powered web application that analyzes user-submitted code and provides real-time suggestions for optimization and error detection using OpenAI API.",
     tech: ["React", "Tailwind", "OpenAI API"],
     image: AiImg,
     frontend: "https://github.com/anantharjun672001-a11y/AiFrontend",
