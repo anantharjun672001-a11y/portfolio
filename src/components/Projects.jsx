@@ -1,18 +1,18 @@
-import kanbanImg from "../assets/Kanban_Board.png"; 
+import AiImg from "../assets/Ai_Code_reviewer.png"; 
 import hostelImg from "../assets/Hostel_Management.png";
 import photoImg from "../assets/Stuart_Photography.png";
 import notesImg from "../assets/Notes_app.png";
 
 const projects = [
   {
-    title: "Kanban Board",
+    title: "AI Code Reviewer",
     description:
-      "Drag-and-drop task management app with localStorage persistence.",
-    tech: ["React", "Tailwind", "dnd-kit"],
-    image: kanbanImg,
-    frontend: "https://github.com/anantharjun672001-a11y/Kanban_Board",
-    backend: null,
-    live_demo: "https://kanban-board-tau-jade.vercel.app/",
+      "AI-powered code review tool that provides suggestions and improvements.",
+    tech: ["React", "Tailwind", "OpenAI API"],
+    image: AiImg,
+    frontend: "https://github.com/anantharjun672001-a11y/AiFrontend",
+    backend: "https://github.com/anantharjun672001-a11y/Backend",
+    live_demo: "https://ai-code-reviewer-blue-six.vercel.app/",
   },
   {
     title: "Hostel Management",
