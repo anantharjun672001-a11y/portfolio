@@ -1,7 +1,7 @@
 import AiImg from "../assets/Ai_Code_reviewer.png"; 
 import hostelImg from "../assets/Hostel_Management.png";
 import photoImg from "../assets/Stuart_Photography.png";
-import notesImg from "../assets/Notes_app.png";
+
 
 const projects = [
   {
@@ -33,17 +33,8 @@ const projects = [
     frontend: "https://github.com/anantharjun672001-a11y/StuartPhotography",
     backend: "https://github.com/anantharjun672001-a11y/StuartPhotography_Backend",
     live_demo: "https://www.stuartphtography.in/",
-  },
-  {
-    title: "Notes App",
-    description:
-      "Simple note-taking app with localStorage persistence and responsive design.",
-    tech: ["React", "Tailwind"],
-    image: notesImg,
-    frontend: "https://github.com/anantharjun672001-a11y/notes_app",
-    backend: null,
-    live_demo: "https://notes-app-3dtg.vercel.app/",
   }
+  
 ];
 
 const Projects = () => {
