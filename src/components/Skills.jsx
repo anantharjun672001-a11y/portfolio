@@ -51,7 +51,7 @@ const tools = [
 // SKILLS COMPONENT
 const Skills = () => {
   return (
-    <section id="skills" className="bg-[#0f172a] text-white py-20">
+    <section id="skills" className="bg-[#0f172a] text-white py-24">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* HEADING */}

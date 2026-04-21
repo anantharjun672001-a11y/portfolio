@@ -7,7 +7,7 @@ const projects = [
   {
     title: "AI Code Reviewer",
     description:
-      "Developed an AI-powered web application that analyzes user-submitted code and provides real-time suggestions for optimization and error detection using OpenAI API.",
+      "Developed an AI-powered web application that analyzes user-submitted code and provides real-time suggestions for optimization and error detection using OpenAI API. Implemented a responsive frontend with React and Tailwind CSS, and built a secure backend with Node.js and Express to handle API requests. The application enhances code quality and learning by offering actionable feedback, making it a valuable tool for developers of all skill levels.",
     tech: ["React", "Tailwind", "OpenAI API"],
     image: AiImg,
     frontend: "https://github.com/anantharjun672001-a11y/AiFrontend",
@@ -17,8 +17,8 @@ const projects = [
   {
     title: "Hostel Management",
     description:
-      "Full-stack web app for managing student and room allocation.",
-    tech: ["React", "Node", "MongoDB"],
+      "Developed a full-stack hostel management system to efficiently manage student records, room allocation, and occupancy tracking. The application allows administrators to add, update, and delete student details while maintaining real-time data using MongoDB.Implemented secure backend APIs using Node.js and Express, and built a responsive frontend using React. The system improves data organization and simplifies hostel administration with an intuitive user interface.",
+    tech: ["React", "Node", "MongoDB", "Cloudinary"],
     image: hostelImg,
     frontend: "https://github.com/anantharjun672001-a11y/HostelFrontend",
     backend: "https://github.com/anantharjun672001-a11y/HostelBackend",
@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Photography Website",
     description:
-      "Responsive client portfolio website with optimized UI and performance.",
+      "Designed and developed a responsive photography portfolio website to showcase client work with optimized performance and modern UI. Integrated Cloudinary for efficient image storage and delivery, ensuring fast loading and high-quality visuals.Implemented dynamic gallery sections and smooth navigation to enhance user experience. The project focuses on clean design, responsiveness, and performance optimization for real-world client usage.",
     tech: ["React", "Tailwind","Node","Cloudinary"],
     image: photoImg,
     frontend: "https://github.com/anantharjun672001-a11y/StuartPhotography",
@@ -39,7 +39,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-[#020617] text-white py-20">
+    <section id="projects" className="bg-[#020617] text-white py-24">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* HEADING */}

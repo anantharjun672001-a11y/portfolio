@@ -22,7 +22,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="bg-[#020617] text-white py-20">
+    <section id="certifications" className="bg-[#020617] text-white py-24">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* HEADING */}
