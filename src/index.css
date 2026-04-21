@@ -7,18 +7,13 @@ html {
 }
 
 :root {
-  --primary: #38bdf8; /* light blue */
+  --primary: #38bdf8; 
 }
 
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #0a192f; /* dark blue */
-}
-
-.project-card {
-  background-color: #112240; /* slightly lighter */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  background-color: #0a192f; 
 }
 
 h1, h2, h3 {
@@ -26,5 +21,5 @@ h1, h2, h3 {
 }
 
 p {
-  color: #ccd6f6; /* soft white */
+  color: #ccd6f6; 
 }

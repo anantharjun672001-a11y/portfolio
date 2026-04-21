@@ -31,7 +31,7 @@ const coreSkills = [
   { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
 ];
 
-const familiarSkills = [
+const additionalSkills = [
   { name: "C", icon: <SiC className="text-blue-400" /> },
   { name: "C++", icon: <SiCplusplus className="text-blue-500" /> },
   { name: "Python", icon: <SiPython className="text-yellow-300" /> },
@@ -78,13 +78,13 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* FAMILIAR SKILLS */}
+        {/* Additional SKILLS */}
         <h3 className="text-xl font-semibold mb-6 text-[#38bdf8]">
-          Familiar With
+          Soft Skills
         </h3>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mb-12">
-          {familiarSkills.map((skill, index) => (
+          {additionalSkills.map((skill, index) => (
             <div
               key={index}
               className="bg-[#020617] p-6 rounded-xl flex flex-col items-center gap-3 shadow-md hover:shadow-[#38bdf8]/30 hover:scale-105 transition duration-300 cursor-pointer"
