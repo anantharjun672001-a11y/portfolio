@@ -4,16 +4,7 @@ import photoImg from "../assets/Stuart_Photography.png";
 
 
 const projects = [
-  {
-    title: "AI Code Reviewer",
-    description:
-      "Developed an AI-powered web application that analyzes user-submitted code and provides real-time suggestions for optimization and error detection using OpenAI API. Implemented a responsive frontend with React and Tailwind CSS, and built a secure backend with Node.js and Express to handle API requests. The application enhances code quality and learning by offering actionable feedback, making it a valuable tool for developers of all skill levels.",
-    tech: ["React", "Tailwind", "OpenAI API"],
-    image: AiImg,
-    frontend: "https://github.com/anantharjun672001-a11y/AiFrontend",
-    backend: "https://github.com/anantharjun672001-a11y/Backend",
-    live_demo: "https://ai-code-reviewer-blue-six.vercel.app/",
-  },
+  
   {
     title: "Hostel Management",
     description:
@@ -33,6 +24,16 @@ const projects = [
     frontend: "https://github.com/anantharjun672001-a11y/StuartPhotography",
     backend: "https://github.com/anantharjun672001-a11y/StuartPhotography_Backend",
     live_demo: "https://www.stuartphtography.in/",
+  },
+  {
+    title: "AI Code Reviewer",
+    description:
+      "Developed an AI-powered web application that analyzes user-submitted code and provides real-time suggestions for optimization and error detection using OpenAI API. Implemented a responsive frontend with React and Tailwind CSS, and built a secure backend with Node.js and Express to handle API requests. The application enhances code quality and learning by offering actionable feedback, making it a valuable tool for developers of all skill levels.",
+    tech: ["React", "Tailwind", "OpenAI API"],
+    image: AiImg,
+    frontend: "https://github.com/anantharjun672001-a11y/AiFrontend",
+    backend: "https://github.com/anantharjun672001-a11y/Backend",
+    live_demo: "https://ai-code-reviewer-blue-six.vercel.app/",
   }
   
 ];
