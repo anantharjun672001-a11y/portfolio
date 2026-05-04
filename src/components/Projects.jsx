@@ -16,15 +16,20 @@ const projects = [
     live_demo: "https://hostel-frontend-topaz.vercel.app/",
   },
   {
-    title: "Photography Website",
+    title: "Stuart Photography – Full Stack Booking Platform",
     description:
-      "Designed and developed a responsive photography portfolio website to showcase client work with optimized performance and modern UI. Integrated Cloudinary for efficient image storage and delivery, ensuring fast loading and high-quality visuals.Implemented dynamic gallery sections and smooth navigation to enhance user experience. The project focuses on clean design, responsiveness, and performance optimization for real-world client usage.",
-    tech: ["React", "Tailwind","Node","Cloudinary"],
+      "Initially developed as a client photography portfolio website, this project was later enhanced into a full-stack application. It now includes user authentication, booking system, admin dashboard, and Razorpay payment integration. Built using the MERN stack, the application allows users to book photography services, manage bookings, and make secure payments, while admins can approve or manage requests. This project demonstrates real-world scalability by evolving a static client project into a dynamic full-stack platform.",
+      
+    tech: ["React", "Tailwind", "Node.js", "Express", "MongoDB", "JWT", "Razorpay"],
+
     image: photoImg,
-    frontend: "https://github.com/anantharjun672001-a11y/StuartPhotography",
-    backend: "https://github.com/anantharjun672001-a11y/StuartPhotography_Backend",
-    live_demo: "https://www.stuartphtography.in/",
+
+    frontend: "https://github.com/anantharjun672001-a11y/FrontendFSD",
+    backend: "https://github.com/anantharjun672001-a11y/BackendFSD",
+
+    live_demo: "https://frontend-fsd-nu.vercel.app/",
   },
+ 
   {
     title: "AI Code Reviewer",
     description:
